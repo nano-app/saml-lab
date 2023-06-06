@@ -1,0 +1,132 @@
+# SETTING
+
+## @ STA access admin
+
+
+
+## @ AWS
+
+
+
+##TESTING
+
+App URL:
+https://idp.eu.safenetid.com/auth/realms/5FQ0CZB0SB-STA/protocol/saml/clients/lab-aws-saml-Tu#back
+
+User portal:
+https://userportal.eu.safenetid.com/5FQ0CZB0SB/applications
+--- SAML
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                Destination="https://signin.aws.amazon.com/saml"
+                ID="ID_35e4c967-7cfb-4320-9469-686eff391cda"
+                IssueInstant="2023-06-06T08:48:06.717Z"
+                Version="2.0"
+                >
+    <saml:Issuer>https://idp.eu.safenetid.com/auth/realms/5FQ0CZB0SB-STA</saml:Issuer>
+    <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:SignedInfo>
+            <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <dsig:Reference URI="#ID_35e4c967-7cfb-4320-9469-686eff391cda">
+                <dsig:Transforms>
+                    <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </dsig:Transforms>
+                <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <dsig:DigestValue>0wMMJltEAvfanR0vGUJ3YGss2/WFDDi48v4J7hKeRbI=</dsig:DigestValue>
+            </dsig:Reference>
+        </dsig:SignedInfo>
+        <dsig:SignatureValue>JFXt/t8EO50OSUCVU90WOw3V7aduAI1fdBaGL7M9xdNRVbUe0bW93iDsR0P3VMyIef7Y+8PkOPWR4VO0Jcb5XzNdUvFb5xYB+XgTx805rQFL2iv3p6s4Bg/9jJG9JkW3tGIAtxUiXhQg3CTQvXPgPzX++MSjbu2bGhALEFHnf3+rglzbSoSc3e6cGwa50jx7bysFvaQvd4lhSEYEjPLehMC6qGY08bO4BLkqno7AG+B12c1Nl9+ibqC9CHW2BpENmARtoyald36w6uxCE8t6MXFhM2pXrb1Y3UhBtAeCQOvStqCMFDb/pZwGNdeXsG1V1WfwvwdIegkVv9owwW/0Rg==</dsig:SignatureValue>
+        <dsig:KeyInfo>
+            <dsig:X509Data>
+                <dsig:X509Certificate>MIICqzCCAZMCBgF/qozAzzANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDDA41RlEwQ1pCMFNCLVNUQTAeFw0yMjAzMjEwMzM1MjVaFw0zMjAzMjEwMzM3MDVaMBkxFzAVBgNVBAMMDjVGUTBDWkIwU0ItU1RBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcYvKdk38Xs0f1xkgoHz9hy8q1EZdJi/xkX3Kg9x5lLZw54em/IN3LMEbHt2n215eyUc+srBG/+0fCMb0JL3vF1icoqdOahTHEqmfdNedlHLLwplIM60wWM3g4lpo7ggLNJHeh4m8sL0FicVnyOUttkwjAQqNlflfvBXKTEyvxi8OuUBHo8Tv2kR8w6TXno/Gdi/Z2ae9hZB3/pjmg6vA5QfsgsPnHVcT9ltc4zigdyMI6OktHrFR0Cbvzxhux+bP0YAiLIw66ggDdm3VIdt49a3ER90xgfoy/kvoil2q867VQAYvAkBnlZfg04Ei80D5p9aYSPxuxNyv14MZsBqfwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAI46yASCUQFQgGwu/Kn+NfQESxbWUsTS00DTlLY/9Gn2e8gvruzC5TT4hn18k20//pr4snWv0wFkYN8bfHbPsoAY7Cm+PLBd753jqNlRL+pIROR87zOTmYDwPofktneMvFRfhvAsd+04/UDZau1f+L1TO0RgGXINw15dFz0OtZm258GQFzzlOkSgQpDeTtVMmDcNAN5/9alcVYKHHPW0GtDhuZ/b9Q2HEmBSDhDHpBV4UeuQTjs6DRCgS+cdVBB5U7Hyo5usXVRxeL1p8DWVUJrXWJBsQSxNCREO0cjyO7M6rw0szHkAf7SvQATa8lZ8Np70GTKYJelFf0kvkJilzd</dsig:X509Certificate>
+            </dsig:X509Data>
+            <dsig:KeyValue>
+                <dsig:RSAKeyValue>
+                    <dsig:Modulus>rcYvKdk38Xs0f1xkgoHz9hy8q1EZdJi/xkX3Kg9x5lLZw54em/IN3LMEbHt2n215eyUc+srBG/+0fCMb0JL3vF1icoqdOahTHEqmfdNedlHLLwplIM60wWM3g4lpo7ggLNJHeh4m8sL0FicVnyOUttkwjAQqNlflfvBXKTEyvxi8OuUBHo8Tv2kR8w6TXno/Gdi/Z2ae9hZB3/pjmg6vA5QfsgsPnHVcT9ltc4zigdyMI6OktHrFR0Cbvzxhux+bP0YAiLIw66ggDdm3VIdt49a3ER90xgfoy/kvoil2q867VQAYvAkBnlZfg04Ei80D5p9aYSPxuxNyv14MZsBqfw==</dsig:Modulus>
+                    <dsig:Exponent>AQAB</dsig:Exponent>
+                </dsig:RSAKeyValue>
+            </dsig:KeyValue>
+        </dsig:KeyInfo>
+    </dsig:Signature>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+    </samlp:Status>
+    <saml:Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion"
+                    ID="ID_1ed38ed1-f58a-475c-b492-298b7254085b"
+                    IssueInstant="2023-06-06T08:48:06.717Z"
+                    Version="2.0"
+                    >
+        <saml:Issuer>https://idp.eu.safenetid.com/auth/realms/5FQ0CZB0SB-STA</saml:Issuer>
+        <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+            <dsig:SignedInfo>
+                <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                <dsig:Reference URI="#ID_1ed38ed1-f58a-475c-b492-298b7254085b">
+                    <dsig:Transforms>
+                        <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                    </dsig:Transforms>
+                    <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                    <dsig:DigestValue>dNN+1tJBz/jsj3YVRiQro5xyaPRsuGyWGNcQ9okeMQY=</dsig:DigestValue>
+                </dsig:Reference>
+            </dsig:SignedInfo>
+            <dsig:SignatureValue>FYTwHo8LO1DPw2UchxUWQ02+eBfD4mfFeR77ouybTmnyqcxX9Gp62ZEK2532t0FmVWCzEFroXWaD45Ww+YvKMc4c1WFnJH6HW+wGFztyUdguq7rRV1x/MfdoEFV5nrqBAD2+h+aOuJdBCQaOUCZgxmEbGNf9Kc3fTKAKJoKK8OoGth4lKVlYMEQDWFw4YTpiXpD2X9nbSxDmfLWgy4uq604ByCgIL3olu2ZsdF9RlE7AwEmRrbbe3xLJWFE8HWLUtnmixkc9JlQ+et1AyV5JxZYSGhr++JuxUN86sgkfQQO6Z8BuZgngdopgLwcP9Vfe++EcH4DYsO8RxD8z7Nwzew==</dsig:SignatureValue>
+            <dsig:KeyInfo>
+                <dsig:X509Data>
+                    <dsig:X509Certificate>MIICqzCCAZMCBgF/qozAzzANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDDA41RlEwQ1pCMFNCLVNUQTAeFw0yMjAzMjEwMzM1MjVaFw0zMjAzMjEwMzM3MDVaMBkxFzAVBgNVBAMMDjVGUTBDWkIwU0ItU1RBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcYvKdk38Xs0f1xkgoHz9hy8q1EZdJi/xkX3Kg9x5lLZw54em/IN3LMEbHt2n215eyUc+srBG/+0fCMb0JL3vF1icoqdOahTHEqmfdNedlHLLwplIM60wWM3g4lpo7ggLNJHeh4m8sL0FicVnyOUttkwjAQqNlflfvBXKTEyvxi8OuUBHo8Tv2kR8w6TXno/Gdi/Z2ae9hZB3/pjmg6vA5QfsgsPnHVcT9ltc4zigdyMI6OktHrFR0Cbvzxhux+bP0YAiLIw66ggDdm3VIdt49a3ER90xgfoy/kvoil2q867VQAYvAkBnlZfg04Ei80D5p9aYSPxuxNyv14MZsBqfwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAI46yASCUQFQgGwu/Kn+NfQESxbWUsTS00DTlLY/9Gn2e8gvruzC5TT4hn18k20//pr4snWv0wFkYN8bfHbPsoAY7Cm+PLBd753jqNlRL+pIROR87zOTmYDwPofktneMvFRfhvAsd+04/UDZau1f+L1TO0RgGXINw15dFz0OtZm258GQFzzlOkSgQpDeTtVMmDcNAN5/9alcVYKHHPW0GtDhuZ/b9Q2HEmBSDhDHpBV4UeuQTjs6DRCgS+cdVBB5U7Hyo5usXVRxeL1p8DWVUJrXWJBsQSxNCREO0cjyO7M6rw0szHkAf7SvQATa8lZ8Np70GTKYJelFf0kvkJilzd</dsig:X509Certificate>
+                </dsig:X509Data>
+                <dsig:KeyValue>
+                    <dsig:RSAKeyValue>
+                        <dsig:Modulus>rcYvKdk38Xs0f1xkgoHz9hy8q1EZdJi/xkX3Kg9x5lLZw54em/IN3LMEbHt2n215eyUc+srBG/+0fCMb0JL3vF1icoqdOahTHEqmfdNedlHLLwplIM60wWM3g4lpo7ggLNJHeh4m8sL0FicVnyOUttkwjAQqNlflfvBXKTEyvxi8OuUBHo8Tv2kR8w6TXno/Gdi/Z2ae9hZB3/pjmg6vA5QfsgsPnHVcT9ltc4zigdyMI6OktHrFR0Cbvzxhux+bP0YAiLIw66ggDdm3VIdt49a3ER90xgfoy/kvoil2q867VQAYvAkBnlZfg04Ei80D5p9aYSPxuxNyv14MZsBqfw==</dsig:Modulus>
+                        <dsig:Exponent>AQAB</dsig:Exponent>
+                    </dsig:RSAKeyValue>
+                </dsig:KeyValue>
+            </dsig:KeyInfo>
+        </dsig:Signature>
+        <saml:Subject>
+            <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">tu.nguyen@hpid.vn</saml:NameID>
+            <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <saml:SubjectConfirmationData NotOnOrAfter="2023-06-06T08:53:04.717Z"
+                                              Recipient="https://signin.aws.amazon.com/saml"
+                                              />
+            </saml:SubjectConfirmation>
+        </saml:Subject>
+        <saml:Conditions NotBefore="2023-06-06T08:48:04.717Z"
+                         NotOnOrAfter="2023-06-06T08:49:04.717Z"
+                         >
+            <saml:AudienceRestriction>
+                <saml:Audience>urn:amazon:webservices</saml:Audience>
+            </saml:AudienceRestriction>
+        </saml:Conditions>
+        <saml:AuthnStatement AuthnInstant="2023-06-06T08:48:06.717Z"
+                             SessionIndex="7ba9dd22-b394-4b20-b2da-0b8fe63985a6::64d75c1b-014b-445e-90c0-ced0c9665ff3"
+                             SessionNotOnOrAfter="2023-06-06T20:48:06.717Z"
+                             >
+            <saml:AuthnContext>
+                <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+            </saml:AuthnContext>
+        </saml:AuthnStatement>
+        <saml:AttributeStatement>
+            <saml:Attribute FriendlyName="https://aws.amazon.com/SAML/Attributes/Role"
+                            Name="https://aws.amazon.com/SAML/Attributes/Role"
+                            NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"
+                            >
+                <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                     xsi:type="xs:string"
+                                     >arn:aws:iam::029511742337:role/sta-saml-role-test,arn:aws:iam::029511742337:saml-provider/sta-idp-lab</saml:AttributeValue>
+            </saml:Attribute>
+            <saml:Attribute FriendlyName="https://aws.amazon.com/SAML/Attributes/RoleSessionName"
+                            Name="https://aws.amazon.com/SAML/Attributes/RoleSessionName"
+                            NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified"
+                            >
+                <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                     xsi:type="xs:string"
+                                     >Tu</saml:AttributeValue>
+            </saml:Attribute>
+        </saml:AttributeStatement>
+    </saml:Assertion>
+</samlp:Response>
